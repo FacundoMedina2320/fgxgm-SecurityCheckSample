@@ -1,6 +1,6 @@
 #FROM node:18.19.1
 #FROM node:21.6.2-bookworm-slim
-FROM alpine:3.18
+FROM alpine:3.21.0
 RUN npm install -g npm@9.2.3
 
 ADD package.json .
